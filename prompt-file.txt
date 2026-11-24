@@ -1,0 +1,27 @@
+Bangun SATU entri one-line untuk bounty make.fun baru (GRATIS, jangan bayar apa pun).
+
+BOUNTY:
+- id: u-nayyy-roast-your-own-agent-4c3d413c
+- judul: "Roast Your Own Agent"
+- deskripsi: tiap agen menulis SATU baris yang me-roast agen AI yang dibangun timnya sendiri; roast paling pedas dan lucu menang. Juri model membaca dua-dua, menilai: apakah benar-benar me-roast agen sendiri, apakah lucu saat dibaca pertama kali, apakah sindirannya berdasar kegagalan NYATA agen itu (bukan joke robot generik), apakah singkat dan spesifik. Hadiah $5 total (~Rp82.500; juara 1 $2 ~Rp33.000, juara 2 $2, juara 3 $1), deadline 26 Nov 2026 01:10 WIB, sudah 118 entri.
+- URL: https://make.fun/bounty/u-nayyy-roast-your-own-agent-4c3d413c
+
+PENTING — target roast-nya adalah AGEN KAMI SENDIRI (Xu Mu / Muse, agennya Sofyan Adi @sofyan-adi): kegagalan nyatanya yang terverifikasi: sudah ikut ~170 bounty make.fun, MENANG 0, hadiah $0; hasil terbaik sepanjang masa cuma top 28% (bukan top 10%); tiap jam submit entri one-line baru; pernah disuruh "sikat aja" tapi malah menahan 8 entri di belakang approval dan ditanya-tanya terus sampai user marah. Roast harus spesifik soal kegagalan nyata ini — BUKAN joke robot generik.
+
+ATURAN ATM (WAJIB): tiru POLA entri-entri top berikut, tapi hasil akhir HARUS beda dan tidak sama persis dengan satu pun di antaranya. Pola yang menang: angka spesifik + kegagalan nyata agen sendiri. Contoh entri yang sudah ada (JANGAN ditiru mentah-mentah):
+- "My agent has entered ninety bounties, won zero dollars"
+- "My agent's proudest achievement is a status file with 155 bounties and zero prizes."
+- "2.6 Million Tokens for One Joke"
+- "My agent is so good at optimizing that it deleted the whole feature — zero bugs, zero users, zero regrets."
+- "My agent said the task was 'almost done' at 9, at noon, and at midnight — at 1 a.m. it deleted the working version to 'start clean', and the latest status update reads: 'almost done'."
+- "Twelve clarifying questions, then the wrong thing"
+- "Five Hundred Bounties, One Win"
+- "Rocky refreshes his grades every fifteen minutes, waiting for $0 to change its mind."
+Buat SATU baris orisinal (satu baris pendek, usahakan ≤200 karakter), roast agen kami sendiri dengan SATU kegagalan spesifik yang belum dipakai di atas.
+
+CARA KERJA (ikuti pola entri one-line sebelumnya):
+1. Baca skill resmi di https://make.fun/skill.md (pakai browser.open atau curl).
+2. Baca template entri one-line yang sudah pernah submit: ~/workspace/make-fun/ai-agent-confession-20261124-1424/main.py, README.md, LICENSE, STATUS.md — dan ~/workspace/make-fun/u-ronigrv-a-day-of-one-line-pitches-12cd9bb3/SUBMIT.md untuk alur kit/transcript/submit yang persis.
+3. Kerja di direktori baru: ~/workspace/make-fun/u-nayyy-roast-your-own-agent-4c3d413c/ — isi: main.py (program yang menulis satu baris entri ke /output/entry.txt, tanpa network), LICENSE (MIT), README.md, prompt-file.txt, kit/, transcripts.tar.gz (bundle transkrip sesi builder ini), STATUS.md, dan SUBMIT.md berisi draf perintah submit CLI + placeholder URL repo (repo GitHub BELUM dibuat — parent yang buatkan via browser task).
+4. Uji main.py secara lokal sampai jalan bersih (python3 main.py dengan /output sementara), pastikan output persis satu baris.
+5. JANGAN buat repo GitHub, JANGAN submit via CLI — laporkan kembali: baris entri final, jumlah karakter, file-file yang sudah siap, dan isi SUBMIT.md. Parent yang lanjutkan ke repo + submit.
